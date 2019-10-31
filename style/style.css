@@ -1,34 +1,57 @@
 body {
-  background-color: aliceblue; }
-  body header {
-    margin-top: 4%; }
-    body header #name {
-      color: black;
-      font-size: 30px;
-      margin-top: 8px;
-      font-weight: bold;
-      text-align: center; }
-    body header #image_head {
-      text-align: center; }
-      body header #image_head img {
-        border-radius: 50%; }
-  body #menu_bar {
-    text-align: center;
-    margin-top: 30px; }
-    body #menu_bar .btn-outline-dark {
-      width: 100px;
-      margin-inline-end: 10px; }
-  body #main_content {
-    margin-left: 25%;
-    margin-right: 25%; }
-    body #main_content #info {
-      line-height: 30px; }
-    body #main_content #p_info {
-      line-height: 22px; }
-  body footer {
-    margin-top: 5px;
-    color: black;
-    text-align: center;
-    font-weight: bold; }
+  background-color: aliceblue;
+}
+body header {
+  margin-top: 4%;
+}
+body header #name {
+  color: black;
+  font-size: 30px;
+  margin-top: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+body header #image_head {
+  text-align: center;
+}
+body header #image_head img {
+  border-radius: 50%;
+}
+body #menu_bar {
+  text-align: center;
+  margin-top: 30px;
+}
+body #menu_bar .btn-outline-dark {
+  width: 100px;
+  margin-inline-end: 10px;
+}
+body #main_content {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+body #main_content #info {
+  line-height: 30px;
+}
+body #main_content #p_info {
+  line-height: 22px;
+}
+@media (min-width: 500px) {
+  body #main_content #main_content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  body #main_content #info {
+    line-height: 25px;
+  }
+  body #main_content #p_info {
+    line-height: 20px;
+  }
+}
+body footer {
+  margin-top: 5px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */
