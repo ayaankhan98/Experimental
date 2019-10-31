@@ -25,12 +25,6 @@ body #menu_bar .btn-outline-dark {
   width: 100px;
   margin-inline-end: 10px;
 }
-@media (min-width: 500px) {
-  body #menu_bar .btn-outline-dark {
-    width: 50px;
-    margin-inline-end: 5px;
-  }
-}
 body #main_content {
   margin-left: 25%;
   margin-right: 25%;
@@ -41,10 +35,10 @@ body #main_content #info {
 body #main_content #p_info {
   line-height: 22px;
 }
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   body #main_content #main_content {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
   body #main_content #info {
     line-height: 25px;

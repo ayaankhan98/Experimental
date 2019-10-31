@@ -28,14 +28,7 @@ body{
         .btn-outline-dark{
             width: 100px;
             margin-inline-end: 10px;
-        }
-
-        @media (min-width: 500px){
-            .btn-outline-dark{
-                width: 50px;
-                margin-inline-end: 5px;
-            }
-        }
+        }     
     }
 
     #main_content{
@@ -50,11 +43,11 @@ body{
             line-height: 22px;
         }
 
-        @media (min-width:500px)
+        @media (max-width:500px)
         {
             #main_content{
-                margin-left: 20px;
-                margin-right: 20px;
+                margin-left: 20%;
+                margin-right: 20%;
             }
 
             #info{
