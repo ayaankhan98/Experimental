@@ -23,6 +23,8 @@ body {
     margin-right: 25%; }
     body #main_content #info {
       line-height: 30px; }
+    body #main_content #p_info {
+      line-height: 22px; }
   body footer {
     margin-top: 5px;
     color: black;
