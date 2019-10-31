@@ -2,7 +2,7 @@ body{
     background-color: aliceblue;
 
     header{
-        margin-top: 4%;
+        margin-top: 1%;
 
         #name{
             color: black;
@@ -28,6 +28,13 @@ body{
         .btn-outline-dark{
             width: 100px;
             margin-inline-end: 10px;
+        }
+
+        @media (min-width: 500px){
+            .btn-outline-dark{
+                width: 50px;
+                margin-inline-end: 5px;
+            }
         }
     }
 
@@ -64,6 +71,7 @@ body{
         margin-top: 5px;
         color: black;
         text-align: center;
+        height:100px;
         font-weight: bold;
     }
 }

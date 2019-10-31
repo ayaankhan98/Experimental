@@ -2,7 +2,7 @@ body {
   background-color: aliceblue;
 }
 body header {
-  margin-top: 4%;
+  margin-top: 1%;
 }
 body header #name {
   color: black;
@@ -24,6 +24,12 @@ body #menu_bar {
 body #menu_bar .btn-outline-dark {
   width: 100px;
   margin-inline-end: 10px;
+}
+@media (min-width: 500px) {
+  body #menu_bar .btn-outline-dark {
+    width: 50px;
+    margin-inline-end: 5px;
+  }
 }
 body #main_content {
   margin-left: 25%;
@@ -51,6 +57,7 @@ body footer {
   margin-top: 5px;
   color: black;
   text-align: center;
+  height: 100px;
   font-weight: bold;
 }
 
