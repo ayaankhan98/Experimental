@@ -26,6 +26,7 @@ body #right-pane div {
   position: relative;
   background-color: lightgray;
   width: 92%;
+  border-radius: 25%;
 }
 
 /*# sourceMappingURL=style1.css.map */
