@@ -1,0 +1,42 @@
+body
+{
+    #left-pane
+    {
+        background-color:black;
+        color: white;
+        width: 400px;
+        height: 730px;
+        position: fixed;
+        margin-top: 0px;
+
+        #image_head
+        {
+            
+            img{
+                border-radius: 50%;
+                margin-left: 110px;
+                margin-top: 90px;
+            }
+            #name{
+                margin-top: 15px;
+                text-align: center;
+            }
+        }
+    }
+
+    #right-pane
+    {
+        position: absolute;
+        .cont
+        {
+             margin-left: 420px;
+             margin-top: 40px;
+        }
+        div
+        {
+            position: relative;
+            background-color: lightgray;
+            width: 92%;
+        }
+    }
+}
