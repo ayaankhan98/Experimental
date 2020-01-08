@@ -39,6 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('#contact-click').className = "nav-link"
         }
     })
-
-   
 })
