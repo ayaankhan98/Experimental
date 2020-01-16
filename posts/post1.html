@@ -76,11 +76,24 @@
 			   </div>
 			   <div class="card-body">		   
 				   <div id="blog-post-content" style="margin-top:20px; font-size:17px; font-family:"DejaVu Sans";">
-					   So for All this i am assuming you all have python 3.6 or above installed on your system.<br/>
+					   So for All this i am assuming you all have python 3.6 or above and Git installed on your system.<br/>
 					   <p>
 					   	First step is to create a virtual Environment.<br/><h4>Windows - </h4>
-						Open Command Prompt and Type <br/><br/><code style="font-family:Courier New; font-size:20px">virtualenv venv</code><br/>this will install some necessary files like Setuptools etc, and finally the virtual environment is is now created now if you type <br/><code style="font-family:Courier New; font-size:20px;">dir</code><br/> to list all the directories you will notice that a new directory with name<b>venv</b> is created. Now type<br/><code style="font-family:Courier New; font-size:20px;">cd venv</code><br/>
+						Open Command Prompt and Type <br/><br/><code style="font-family:Courier New; font-size:20px">virtualenv venv</code><br/><br/>this will install some necessary files like Setuptools etc, and finally the virtual environment is is now created now if you type <br/><br/><code style="font-family:Courier New; font-size:20px;">dir</code><br/><br/>to list all the directories you will notice that a new directory with name <b>venv</b> is created. Now type<br/><br/><code style="font-family:Courier New; font-size:20px;">cd venv</code><br/><br/>the next step is to activate this virtual environment, to activate this venv type<br/><br/><code style="font-family:Courier New; font-size:20px;">venv\Scripts\activate<br/><br/></code>after activating the venv let's clone the github repository of ccms, to clone the repository type<br/><br/><code style="font-family:Courier New; font-size:20px;">git clone https://github.com/ayaankhan98/ccms.git</code><br/><br/>after successful cloning install the necessary dependencies of ccms by running<br/><br/><code style="font-family:Courier New; font-size:20px;">pip install -r requirements.txt</code><br/><br/>after the installation of there dependencies we have to tell the system that which application we want to run on the flask server, so to do this type the command<br/><br/><code style="font-family:Courier New; font-size:20px;">set FLASK_APP=application.py</code><br/><br/>now set the flask server into development mode using the command<br/><br/><code style="font-family:Courier New; font-size:20px;">set FLASK_ENV=development</code><br/><br/>now finally it's the time to run the flask app, to run type the command<br/><br/><code style="font-family:Courier New; font-size:20px;">flask run</code><br/><br/>
 					   </p> 
+<script>
+	import { readFile } from 'fs';
+
+// Requiring fs module in which  
+// readFile function is defined. 
+const fs = require('fs') 
+  
+fs.readFile('Input.txt', (err, data) => { 
+    if (err) throw err; 
+  
+    console.log(data.toString()); 
+}) 
+</script>  
 				   </div>
 			   </div>
 		   </div>
