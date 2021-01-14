@@ -1,10 +1,6 @@
 /**
  * @author ayaankhan98
  *
- * Name: Ayaan Khan
- * Enrollment: GL3134
- * FacultyNumber: 19COB049
- *
  * @brief Calculator GUI application using Java Swing, able to perform
  * basic arithmetic operations
  *
